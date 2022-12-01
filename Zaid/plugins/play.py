@@ -25,8 +25,8 @@ from telethon.tl.functions.users import GetFullUserRequest
 from youtubesearchpython import VideosSearch
 
  
-fotoplay = "https://telegra.ph/file/b6402152be44d90836339.jpg"
-ngantri = "https://telegra.ph/file/b6402152be44d90836339.jpg"
+fotoplay = "https://telegra.ph/file/c448a2ebd9896c3b308e1.jpg"
+ngantri = "https://telegra.ph/file/c448a2ebd9896c3b308e1.jpg"
 from Zaid import call_py, Zaid, client as Client
 owner = "1669178360"
 from Zaid.helpers.yt_dlp import bash
@@ -127,7 +127,7 @@ async def _(event):
      await event.delete()
 
 btnn =[
-    [Button.url("ꜱᴜᴘᴘᴏʀᴛ⚙️ ", url=f"t.me/{Config.SUPPORT}"), Button.url("ɴᴇᴛᴡᴏʀᴋ⚙️", url=f"t.me/{Config.CHANNEL}")],
+    [Button.url("ꜱᴜᴘᴘᴏʀᴛ⚙️ ", url=f"t.me/{Config.SUPPORT}"), Button.url("ɴᴇᴛᴡᴏʀᴋ🍁", url=f"t.me/{Config.CHANNEL}")],
     [Button.inline("cʟᴏꜱᴇ 🗑️", data="cls")]]
 
 
