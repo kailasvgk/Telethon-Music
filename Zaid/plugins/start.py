@@ -5,6 +5,27 @@ from telethon import events, Button
 PM_START_TEXT = """
 ʜᴇʏᴀ! {}
 ➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+🌷 ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ 𓄂‌્𝘿𝞓𝙍𝙎𝙃𝞓𝞟𝞓🕊️⃝🦋⁪⁬𝙈𝙐𝙎𝙄𝘾
+
+🌿 ᴛʜᴀɴᴋꜱ ғᴏʀ ᴜꜱɪɴɢ ᴍᴇ
+
+━━━━━━━━━━━━━━━━━━━
+
+💥 ᴡᴇ ᴘʀᴏᴠɪᴅᴇ ᴏɴʟʏ ɢᴇɴᴜɪɴᴇ
+
+ᴀɴᴅ ғᴜʟʟʏ ᴛᴇꜱᴛᴇᴅ.
+
+┏━━━━━━━━━━━━━━━━━┓
+
+┣★ ᴄʀᴇᴀᴛᴏʀ :  @kailas_vg
+
+┣★ ꜱᴜᴘᴘᴏʀᴛ :  @About_kailas
+
+┣★ ᴜᴘᴅᴀᴛᴇꜱ :  @Pranav_updates
+
+┣★ ɴᴇᴛᴡᴏʀᴋ : @Hell_federation_tg
+
+┗━━━━━━━━━━━━━━━━━┛
 ✘ **ɪ'ᴍ ᴀ ꜱɪᴍᴘʟᴇ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴜꜱɪᴄ ᴀɴᴅ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ**.
 ‣ **ɪ ᴄᴀɴ ᴘʟᴀʏ ꜱᴏɴɢꜱ ɪɴ ʏᴏᴜʀ ᴠᴏɪᴄᴇ**.
 ‣ **ɪ ʜᴀᴠᴇ ᴀʟᴍᴏꜱᴛ ᴀʟʟ ꜰᴇᴀᴛᴜʀᴇꜱ ᴡʜɪᴄʜ ɴᴇᴇᴅꜱ ᴀ ᴍᴜꜱɪᴄ ʙᴏᴛ**
@@ -42,7 +63,7 @@ async def _(event):
     if event.is_private:
        await event.edit(PM_START_TEXT.format(event.sender.first_name), buttons=[
         [Button.url("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ", f"https://t.me/{BOT_USERNAME}?startgroup=true")],
-        [Button.url("👨‍💻 ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", "https://github.com/ITZ-ZAID/Telethon-Music")],
+        [Button.url("👨‍💻 ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", "https://t.me/about_kailas/36")],
         [Button.url("🗣️ ꜱᴜᴘᴘᴏʀᴛ", f"https://t.me/{Config.SUPPORT}"), Button.url("📣 ᴜᴘᴅᴀᴛᴇꜱ", f"https://t.me/{Config.CHANNEL}")],
         [Button.inline("ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ", data="help")]])
        return
