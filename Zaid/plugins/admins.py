@@ -21,6 +21,7 @@ async def _(event):
 ADMIN_TEXT = """
 **✘ A module from which admins of the chat can use!**
 
+‣ `/ping` - To know Bot is alive.
 ‣ `/end` - To End music streaming.
 ‣ `/skip` - To Skip Tracks Going on.
 ‣ `/pause` - To Pause streaming.
