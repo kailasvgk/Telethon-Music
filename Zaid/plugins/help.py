@@ -7,7 +7,7 @@ btn =[
     [Button.inline("Admin", data="admin"), Button.inline("Play", data="play")],
     [Button.inline("Home", data="start")]]
 
-HELP_TEXT = "Welcome To help Menu Section\n\nClick on the Buttons!"
+HELP_TEXT = "» ˹ᴅᴀʀꜱʜᴀɴᴀ ꭙ ᴍᴜꜱɪᴄ˼ 🫧 ᴇxᴄʟᴜsɪᴠᴇ ꜰᴇᴀᴛᴜʀᴇs\n\nᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ᴛᴏ ᴄʜᴇᴄᴋ ᴅᴀᴛᴀɪʟꜱ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ ᴏꜰ ᴛʜᴇ ᴍᴏᴅᴜʟᴇꜱ!"
 
 
 @Zaid.on(events.NewMessage(pattern="[!?/]help"))
