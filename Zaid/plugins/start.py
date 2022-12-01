@@ -19,13 +19,13 @@ PM_START_TEXT = """
 
 ┏━━━━━━━━━━━━━━━━━┓
 
-┣★ ᴄʀᴇᴀᴛᴏʀ : @kailas_vg
+┣★ ᴄʀᴇᴀᴛᴏʀ :  @kailas_vg
 
-┣★ ꜱᴜᴘᴘᴏʀᴛ : @About_kailas
+┣★ ꜱᴜᴘᴘᴏʀᴛ :  @About_kailas
 
-┣★ ᴜᴘᴅᴀᴛᴇꜱ : @Pranav_updates
+┣★ ᴜᴘᴅᴀᴛᴇꜱ :  @Pranav_updates
 
-┣★ ɴᴇᴛᴡᴏʀᴋ : @Hell_federation_tg
+┣★ ɴᴇᴛᴡᴏʀᴋ :  @Hell_federation_tg
 
 ┗━━━━━━━━━━━━━━━━━┛
 ✘ **ɪ'ᴍ ᴀ ꜱɪᴍᴘʟᴇ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴜꜱɪᴄ ᴀɴᴅ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ**.
