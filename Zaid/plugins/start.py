@@ -5,7 +5,8 @@ from telethon import events, Button
 PM_START_TEXT = """
 ʜᴇʏᴀ! {}
 ➖➖➖➖➖➖➖➖➖➖➖➖➖➖
-🌷 ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ 𓄂‌્𝘿𝞓𝙍𝙎𝙃𝞓𝞟𝞓🕊️⃝🦋⁪⁬𝙈𝙐𝙎𝙄𝘾
+🌷 ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ 
+𓄂‌્𝘿𝞓𝙍𝙎𝙃𝞓𝞟𝞓🕊️⃝🦋⁪⁬𝙈𝙐𝙎𝙄𝘾
 
 🌿 ᴛʜᴀɴᴋꜱ ғᴏʀ ᴜꜱɪɴɢ ᴍᴇ
 
@@ -46,7 +47,7 @@ async def start(event):
              buttons=[
         [Button.url("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ", f"https://t.me/{BOT_USERNAME}?startgroup=true")],
         [Button.url("👨‍💻 ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", "https://t.me/about_kailas/36")],
-        [Button.url("🗣️ ꜱᴜᴘᴘᴏʀᴛ", f"https://t.me/{Config.SUPPORT}"), Button.url("📣 ᴜᴘᴅᴀᴛᴇꜱ", f"https://t.me/{Config.CHANNEL}")],
+        [Button.url("🗣️ ꜱᴜᴘᴘᴏʀᴛ", f"https://t.me/{Config.SUPPORT}"), Button.url("🌐 ɴᴇᴛᴡᴏʀᴋ", f"https://t.me/{Config.CHANNEL}")],
         [Button.inline("ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ", data="help")]])
        return
 
@@ -64,6 +65,6 @@ async def _(event):
        await event.edit(PM_START_TEXT.format(event.sender.first_name), buttons=[
         [Button.url("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ", f"https://t.me/{BOT_USERNAME}?startgroup=true")],
         [Button.url("👨‍💻 ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", "https://t.me/about_kailas/36")],
-        [Button.url("🗣️ ꜱᴜᴘᴘᴏʀᴛ", f"https://t.me/{Config.SUPPORT}"), Button.url("📣 ᴜᴘᴅᴀᴛᴇꜱ", f"https://t.me/{Config.CHANNEL}")],
+        [Button.url("🗣️ ꜱᴜᴘᴘᴏʀᴛ", f"https://t.me/{Config.SUPPORT}"), Button.url("🌐 ɴᴇᴛᴡᴏʀᴋ", f"https://t.me/{Config.CHANNEL}")],
         [Button.inline("ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ", data="help")]])
        return
