@@ -38,10 +38,7 @@ PM_START_TEXT = """
 ➖➖➖➖➖➖➖➖➖➖➖➖➖➖
 
 ✘ **ᴄʟɪᴄᴋ ᴏɴ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ 🔘 ꜰᴏʀ ᴍᴏʀᴇ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ℹ️**.
-
-
 """
-
 @Zaid.on(events.NewMessage(pattern="^[?!/]start$"))
 async def start(event):
     if Config.MANAGEMENT_MODE == "ENABLE":
